@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>打地鼠</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="JavaScript/js.js"></script>
+</head>
+<body>
+
+<div id="gbtn">
+    <h1>选择难度，开始游戏</h1>
+    <input class="btn" type="button" value="简单" onclick="startgame(1500,1.8)">
+    <input class="btn" type="button" value="普通" onclick="startgame(800,1.5)">
+    <input class="btn" type="button" value="困难" onclick="startgame(500,1.0)">
+</div>
+
+<div id="time">时间</div>
+<div class="holebody">
+    <div class="hole"><div id="d1" class="mouseup"></div></div>
+    <div class="hole"><div id="d2" class="mouseup"></div></div>
+    <div class="hole"><div id="d3" class="mouseup"></div></div>
+    <div class="hole"><div id="d4" class="mouseup"></div></div>
+    <div class="hole"><div id="d5" class="mouseup"></div></div>
+    <div class="hole"><div id="d6" class="mouseup"></div></div>
+</div>
+
+<div id = "end" class="end">
+    <p>一共敲打了<br><span id = "result">n</span><br>只地鼠!</p>
+    <input id="restart" type="button" value="重新开始" onclick="restart()">
+</div>
+
+</body>
+</html>
