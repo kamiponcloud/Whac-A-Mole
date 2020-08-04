@@ -1,8 +1,10 @@
+
 *{
     margin: 0;
     border: 0;
     user-select: none;
 }
+
 body{
     background-color: #00d000;
 }
@@ -114,4 +116,19 @@ body{
     height: 50px;
 }
 
+@media screen and (max-width: 1080px) {
+    .holebody{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        margin-top: -250px;
+        margin-left: -50vw;
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+}
 
