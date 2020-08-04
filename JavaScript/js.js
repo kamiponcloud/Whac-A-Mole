@@ -52,5 +52,5 @@ function restart() {
     obj.style.display="none";
     var g = document.getElementById("gbtn");
     g.style.display="flex";
-    n = 5;
+    n = 15;
 }
